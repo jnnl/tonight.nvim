@@ -23,7 +23,7 @@ local c = {
 
     red = '#d75f5f',
     light_red = '#f78f8f',
-    dark_red = '#5f0000',
+    dark_red = '#5f1a1a',
     orange = '#d7875f',
     light_orange = '#d8ad84',
     dark_orange = '#bd580d',
@@ -98,10 +98,10 @@ local highlights = {
     Question  = {fg = c.teal},
     Directory = {fg = c.teal},
 
-    DiffAdd    = {fg = c.bg, bg = c.green},
-    DiffChange = {fg = c.bg, bg = c.dark_green},
-    DiffDelete = {fg = c.bg, bg = c.red},
-    DiffText   = {fg = c.bg, bg = c.light_orange},
+    DiffAdd    = {fg = c.bg, bg = c.dark_green},
+    DiffChange = {fg = c.bg, bg = c.dark_teal},
+    DiffDelete = {fg = c.bg, bg = c.dark_red},
+    DiffText   = {fg = c.bg, bg = c.light_teal},
 
     Folded     = {bg = c.grey_1},
     FoldColumn = {link = 'Folded'},
