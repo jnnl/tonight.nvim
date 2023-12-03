@@ -1,10 +1,10 @@
 -- tonight.lua
 
 local c = {
-    fg = '#c6c6c6',
+    fg = '#c2c2c2',
     bg = '#262626',
 
-    grey_0 = '#303030',
+    grey_0 = '#333333',
     grey_1 = '#3d3d3d',
     grey_2 = '#474747',
     grey_3 = '#525252',
@@ -33,9 +33,6 @@ local c = {
     teal = '#87afaf',
     light_teal = '#b7dfdf',
     dark_teal = '#609f9f',
-    blue = '#759dbb',
-    light_blue = '#a5c9fb',
-    dark_blue = '#55799b',
     purple = '#af87af',
     light_purple = '#dfb7df',
     dark_purple = '#5f005f',
@@ -119,8 +116,8 @@ local highlights = {
     MsgArea      = {fg = c.fg},
     MsgSeparator = {fg = c.light_orange, bg = c.grey_1},
 
-    NormalFloat = {fg = c.fg, bg = c.grey_0},
-    FloatBorder = {fg = c.fg},
+    NormalFloat = {fg = c.fg, bg = c.grey_1},
+    FloatBorder = {fg = c.grey_10},
 
     SpellBad   = {fg = c.red, underline = true},
     SpellCap   = {fg = c.fg, underline = true},
@@ -141,8 +138,8 @@ local highlights = {
     Number    = {link = 'Constant'},
     Float     = {link = 'Constant'},
 
-    Identifier = {fg = c.teal},
-    Function   = {fg = c.blue},
+    Identifier = {fg = c.fg},
+    Function   = {fg = c.teal},
 
     Statement   = {fg = c.purple},
     Conditional = {link = 'Statement'},
@@ -176,10 +173,10 @@ local highlights = {
     Error      = {fg = c.red},
     Todo       = {fg = c.orange},
 
-    LspReferenceText            = {fg = c.teal},
+    LspReferenceText            = {link = 'Normal'},
     LspReferenceRead            = {link = 'LspReferenceText'},
     LspReferenceWrite           = {link = 'LspReferenceText'},
-    LspSignatureActiveParameter = {fg = c.bg, bg = c.light_orange},
+    LspSignatureActiveParameter = {fg = c.bg, bg = c.teal},
     LspCodeLens                 = {link = 'LspInlayHint'},
     LspCodeLensSeparator        = {link = 'LspCodeLens'},
     LspInlayHint                = {fg = c.grey_5},
