@@ -74,7 +74,7 @@ local highlights = {
     StatusLine   = {fg = c.light_orange, bg = c.grey_1},
     StatusLineNC = {fg = c.grey_10, bg = c.grey_1},
 
-    ModeMsg    = {fg = c.green},
+    ModeMsg    = {fg = c.teal},
     MoreMsg    = {link = 'ModeMsg'},
     ErrorMsg   = {fg = c.red},
     WarningMsg = {fg = c.orange},
