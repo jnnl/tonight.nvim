@@ -163,7 +163,7 @@ local highlights = {
     Special        = {fg = c.fg},
     SpecialKey     = {link = 'Special'},
     SpecialChar    = {link = 'Special'},
-    SpecialComment = {link = 'Special'},
+    SpecialComment = {fg = c.grey_10},
     Tag            = {link = 'Special'},
     Delimiter      = {link = 'Special'},
     Debug          = {link = 'Special'},
