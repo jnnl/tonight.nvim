@@ -8,7 +8,7 @@ local c = {
     fg_shade_4 = '#333333',
     fg_shade_5 = '#222222',
 
-    bg = '#242424',
+    bg = '#202020',
 
     red = '#d75f5f',
     orange = '#d7875f',
