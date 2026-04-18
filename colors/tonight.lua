@@ -98,7 +98,7 @@ local highlights = {
     MsgArea      = {fg = c.fg},
     MsgSeparator = {fg = c.yellow, bg = c.fg_shade_4},
 
-    NormalFloat = {fg = c.fg, bg = c.fg_shade_4},
+    NormalFloat = {fg = c.fg, bg = c.fg_shade_5},
     FloatBorder = {fg = c.fg_shade_1},
 
     SpellBad   = {fg = c.red, underline = true},
