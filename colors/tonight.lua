@@ -34,7 +34,7 @@ local highlights = {
 
     SignColumn     = {},
     ColorColumn    = {bg = c.fg_shade_5},
-    CursorLine     = {link = 'ColorColumn'},
+    CursorLine     = {bg = c.fg_shade_4},
     CursorLineFold = {link = 'FoldColumn'},
     CursorLineSign = {link = 'SignColumn'},
     CursorColumn   = {link = 'CursorLine'},
